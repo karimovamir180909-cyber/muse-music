@@ -210,5 +210,18 @@ function render(){
 
 render();
 </script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+<script>
+const SUPABASE_URL = https://ecmbxzvczmyxhowdgcam.supabase.co;
+const SUPABASE_KEY = sb_publishable_r3lvQja51c0GCVMoyS__wQ_IGX7zFGg
+
+const supabaseClient = window.supabase.createClient(
+    SUPABASE_URL,
+    SUPABASE_KEY
+);
+
+console.log("MUSE: Supabase connected!");
+</script>
 </body>
 </html>
